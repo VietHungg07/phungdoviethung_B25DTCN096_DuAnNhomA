@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding-top: 60px;
+}
+.khung-ngoai {
+    width: 550px;
+    margin: 0 auto;
+}
+.header {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 10px;
+}
+.logo {
+    font-size: 24px;
+    color: #004aad;
+}
+.highlight {
+    color: #ff9800;
+}
+#nut-bam {
+    float: right;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 5px;
+    background: #eee;
+    border-radius: 50%;
+}
+.bai-viet {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.tieu-de {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.khung-anh {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.anh-minh-hoa {
+    width: 100%;
+    display: block;
+}
+.noi-dung p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.footer-text {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #888;
+}
+.light-mode {
+    background-color: #fcfcfc;
+    color: #222;
+}
+.light-mode .bai-viet {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+.dark-mode {
+    background-color: #0b0e14;
+    color: #e0e0e0;
+}
+.dark-mode .bai-viet {
+    background-color: #1a1f29;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.dark-mode .logo {
+    color: #4da3ff;
+}
+.dark-mode #nut-bam {
+    background: #333;
+}
