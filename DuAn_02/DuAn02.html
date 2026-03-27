@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Toast System - K25</title>
+    <link rel="stylesheet" href="./DuAn02.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="khungchinh">
+        <h1>K25_CNTT_HN</h1>
+        <p>Toast Notification System</p>
+        <div class="bangbamnut">
+            <button onclick="hienthongbao('thanhcong', 'Thành công!', 'Bài viết đã được lưu thành công.')" class="nut nutxanh">Success</button>
+            <button onclick="hienthongbao('loi', 'Có lỗi xảy ra', 'Không thể kết nối máy chủ.')" class="nut nutdo">Error</button>
+            <button onclick="hienthongbao('tintuc', 'Thông tin', 'Bạn có tin nhắn mới.')" class="nut nutxanhduong">Info</button>
+            <button onclick="hienthongbao('canhbao', 'Cảnh báo', 'Vui lòng kiểm tra lại.')" class="nut nutvang">Warning</button>
+        </div>
+    </div>
+    <div id="khuvucthongbao"></div>
+    <script src="./DuAn02.js"></script>
+</body>
+</html>
